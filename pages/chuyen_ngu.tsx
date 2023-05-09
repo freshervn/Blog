@@ -61,13 +61,15 @@ export default function Home() {
               tạo file tên là: <code>next-i18next.config.js</code> ở trong thư
               mục gốc nextjs.
             </p>
+            <br />
             <figure>
+              <figcaption>Thư mục gốc nên nhìn như thế này:</figcaption>
               <Image
                 alt="example root code"
                 src="/images/english_for_carer_development/exampleCode.png"
-                fill={false}
+                width={315}
+                height={412}
               />
-              <figcaption>thư mục gốc nên nhìn như thế này</figcaption>
             </figure>
           </li>
         </ol>
