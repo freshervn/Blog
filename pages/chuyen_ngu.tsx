@@ -15,24 +15,24 @@ export default function Home() {
         <h3 className="text-md">Công nghệ:</h3>
         <ul className="list-inside list-disc">
           <li className="">
-            <a
+            <Link
               href="https://nextjs.org/
           "
               className="underline text-blue-500"
             >
               nextjs
-            </a>
+            </Link>
           </li>
           <li>
             {" "}
-            <a
+            <Link
               className="underline text-blue-500"
               href="https://www.npmjs.com/package/next-i18next
     "
             >
               {" "}
               next-i18next
-            </a>
+            </Link>
           </li>
         </ul>
       </section>
@@ -42,14 +42,14 @@ export default function Home() {
         <h3 className="text-md">Mục lục:</h3>
         <ul className="list-inside list-disc">
           <li className="">
-            <a href="#1" className="underline text-blue-500">
+            <Link href="#1" className="underline text-blue-500">
               install next-i18next
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="underline text-blue-500" href="#2">
+            <Link className="underline text-blue-500" href="#2">
               config file next-i18next
-            </a>
+            </Link>
           </li>
         </ul>
       </section>
@@ -61,6 +61,14 @@ export default function Home() {
               tạo file tên là: <code>next-i18next.config.js</code> ở trong thư
               mục gốc nextjs.
             </p>
+            <figure>
+              <Image
+                alt="example root code"
+                src="/images/english_for_carer_development/exampleCode.png"
+                fill={false}
+              />
+              <figcaption>thư mục gốc nên nhìn như thế này</figcaption>
+            </figure>
           </li>
         </ol>
         <code>yarn add next-i18next react-i18next i18next</code>

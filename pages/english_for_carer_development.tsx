@@ -28,7 +28,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             (by elsa)
-          </a>
+          </a>          
         </h2>
         <details>
           <summary></summary>
