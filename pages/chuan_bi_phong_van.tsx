@@ -20,7 +20,7 @@ export default function Home() {
         <p>
           mình sẽ trả lời câu hỏi đấy thế nào mình nghĩ là mình sẽ kể quá trình
           2 năm kinh nhiệm đấy ra. để họ xem nó có khớp với dự án của họ không.
-          oke
+          okeasdasda 
         </p>
         <p>
           trả lời 2 năm kinh nhiệm nào và cố gắng match nó với những yêu cầu của
